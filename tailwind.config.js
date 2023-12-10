@@ -2,11 +2,13 @@
 export default {
     content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
     theme: {
-        colors: {
-            sidebar: "#0B3828",
-            background: "#34574A",
+        extend: {
+            colors: {
+                sidebar: "#182910",
+                background: "#34574A",
+                iconbg: "#355C25",
+            },
         },
-        extend: {},
     },
     plugins: [],
 };
