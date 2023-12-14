@@ -12,7 +12,7 @@ import {
 
 function Sidebar() {
     return (
-        <div className="bg-sidebar flex-none w-14 sm:w-20 h-screen">
+        <div className="bg-sidebar flex-none w-14 sm:w-20 h-100">
             <div className="h-20 items-center flex">
                 <HomeIcon
                     width={40}
