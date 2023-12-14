@@ -1,7 +1,12 @@
 import React from "react";
+import SalesItem from "../tremorComponents/Donut";
 
 function RightColumn() {
-    return <div></div>;
+    return (
+        <div className="w-full p-2">
+            <SalesItem />
+        </div>
+    );
 }
 
 export default RightColumn;
