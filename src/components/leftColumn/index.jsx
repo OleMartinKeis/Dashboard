@@ -1,6 +1,7 @@
 import React from "react";
 import CardItem from "../tremorComponents/Card";
 import AreaCardItem from "../tremorComponents/AreaCard";
+import TableCard from "../tremorComponents/TableCard";
 
 function LeftColumn() {
     return (
@@ -12,6 +13,7 @@ function LeftColumn() {
             </div>
             <div className="flex-auto w-full">
                 <AreaCardItem />
+                <TableCard />
             </div>
         </div>
     );
